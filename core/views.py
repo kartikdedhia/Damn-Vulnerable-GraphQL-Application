@@ -165,7 +165,7 @@ class Query(graphene.ObjectType):
     result = query.filter_by(public=public, burn=False)
     
     if filter:
-      result = result.filter(text("title = '%s' or content = '%s'" % (filter, filter)))
+      result = result.filter(text("title LIKE '%%{0}%%' or content LIKE '%%{1}%%'".format(filter, filter)))
     
     return result.order_by(Paste.id.desc())
 
