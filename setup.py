@@ -60,7 +60,7 @@ def pump_db():
   admin = User(username="admin", password=random_password())
   owner = Owner(name='DVGAUser')
   paste = Paste()
-  paste.title = random_title()
+  paste.title = "Testing Testing"
   paste.content = "My First Paste"
   paste.public = False
   paste.owner_id = owner.id
