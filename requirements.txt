@@ -22,7 +22,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 promise==2.3
-PyJWT==2.3.0
+PyJWT==2.4.0
 Pypubsub==4.0.3
 requests==2.25.1
 Rx==1.6.1
