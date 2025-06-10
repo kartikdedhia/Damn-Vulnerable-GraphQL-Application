@@ -24,7 +24,7 @@ MarkupSafe==1.1.1
 promise==2.3
 PyJWT==2.3.0
 Pypubsub==4.0.3
-requests==2.25.1
+requests==2.32.4
 Rx==1.6.1
 singledispatch==3.4.0.3
 six==1.15.0
